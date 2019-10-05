@@ -1,0 +1,130 @@
+All the permission systems are gonna use the bit system so yea let's go!
+
+<!-- ADMIN PERMISSIONS -->
+1 = can_use_admincp
+2 = can_admin_forums
+4 = can_admin_users
+8 = can_admin_usergroups
+16 = can_admin_bbcodes = EDITED
+32 = can_edit_adminpermissions
+64 = can_edit_moderationpermissions
+128 = can_edit_staffpermissions
+256 = can_manage_subscriptions
+512 = can_edit_default_forumpermissions
+2048 = can_manage_prefixes
+4096 = can_give_subscription
+
+8192 = can_see_shop_settings
+16384 = can_manage_name_effect
+32768 = can_manage_voucher_codes
+65536 = can_manage_name_icons
+
+131072 = can_view_site_rules
+
+262144 = can_manage_badges = EDITED
+
+524288 = can_edit_usergroups
+1024 = can_edit_details
+1048576 = can_edit_site_rules = NEW
+2097152 = can_edit_generalmodperms
+
+4194304 = can_manage_themes
+
+8388608 = can_manage_automated_threads = NEW
+16777216 = can_manage_staff_list = NEW
+33554432 = can_edit_maintenance = NEW
+67108864 = can_manage_daily_quests = NEW
+134217728 = can_manage_link_partners = NEW
+268435456 = can_manage_sotw = NEW
+536870912 = can_tweet_via_admincp = NEW
+1073741824 = can_view_logs = NEW
+2147483648 = can_view_statistics = NEW
+4294967296 = can_issue_points = NEW
+8589934592 = can_manage_carousel = NEW
+17179869184 = can_manage_welcome_bot = NEW
+34359738368 = can_manage_post_levels = NEW
+
+68719476736 = can_admin_bets = NEW
+
+<!-- FORUM PERMISSIONS (these are for each invidual forum) -->
+1 = can_see_forum
+2 = can_create_thread
+4 = can_reply_to_others_threads = RENAMED
+8 = can_edit_own_post -- NOT IN SYSTEM
+16 = can_skip_approve_thread
+32 = can_see_others_threads
+64 = can_skip_double_post
+128 = can_reply_to_own_threads = NEW
+
+
+<!-- MODERATION PERMISSIONS (FORUM ONLY) -->
+1 = can_edit_posts
+2 = can_soft_delete_posts
+4 = can_hard_delete_posts
+8 = can_open_close_threads
+16 = can_move_posts_threads
+32 = can_merge_threads
+64 = can_change_owner
+128 = can_move_posts
+256 = can_warninf_users
+512 = can_approve_unapprove_threads
+1024 = can_view_unapproved_threads
+
+<!-- FORUM OPTIONS -->
+1 = thread_needs_approving
+2 = post_dont_counts
+
+
+<!-- POST BIT OPTIONS -->
+1 = hide_likes
+2 = hide_posts
+4 = hide_joined
+
+<!-- general mod perms -->
+1 = can_see_moderation
+2 = can_ban_user
+4 = can_unban_user
+8 = can_soft_delete_vm
+32 = can_soft_delete_article_comments
+64 = can_search_users_using_same_ip
+128 = can_manage_creations
+256 = can_infract_article_comments = NEW
+512 = can_infract_vm = NEW
+1024 = can_soft_delete_creation_comments = NEW
+2048 = can_hard_delete_vm = NEW
+4096 = can_hard_delete_article_comments = NEW
+8192 = can_hard_delete_creation_comments = NEW
+
+<!-- STAFF PERMISSIONS -->
+1 = can_use_staff_panel
+2 = can_use_radio_stuff
+4 = can_unbook_radio_slot
+8 = can_see_all_requests
+16 = can_always_see_connection
+32 = can_use_manager_stuff
+64 = can_add_perm_show
+128 = can_use_media - quests
+256 = can_manage_other_articles - quests
+512 = can_see_graphics
+1024 = can_upload_graphic
+2048 = can_delete_others_grahics
+4096 = can_use_shoutbox
+8192 = can_manage_radio_info
+16384 = can_manage_flagged_articles
+32768 = can_see_admin
+65536 = 
+131072 = 
+262144 = 
+524288 = can_manage_event_types
+1048576 = can_use_event_stuff
+16777216 = can_unbook_event_slot
+67108864 = can_book_for_others
+
+<!-- SUBSCRIPTION FEATURES -->
+1 = can_use_features_page
+2 = username_one_color
+4 = username_rainbow_color
+8 = username_custom_rainbow_color
+16 = userbar_one_color
+32 = userbar_rainbow_color
+64 = userbar_custom_rainbow
